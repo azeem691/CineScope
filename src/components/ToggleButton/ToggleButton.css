@@ -1,0 +1,21 @@
+.toggle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-button.light {
+  background-color: #ffff64; /* Bright yellow for sun */
+  color: #ffffff;
+}
+
+.toggle-button.dark {
+  background-color: #000000; /* Black for moon */
+  color: #ffffff;
+}
